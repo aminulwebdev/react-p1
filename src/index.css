@@ -1,0 +1,76 @@
+:root {
+    --brand_clr: #203239;
+    --primary_clr: #FF7527;
+}
+
+/* ==============================
+          Common Code Start
+    ===============================  */
+* {
+    padding: 0;
+    margin: 0;
+    /* outline: 0; */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: .8;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.heading {
+    color: var(--brand_clr);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 54px */
+}
+
+.sub_heading {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.paragraph {
+    color: rgba(32, 50, 57, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.common_btn {
+    padding: 13px 41px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 10px;
+    text-transform: capitalize;
+}

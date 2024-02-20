@@ -1,0 +1,69 @@
+#kota {
+    padding: 68px 0;
+}
+
+#kota .kota_heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 64px;
+}
+
+#kota .kota_heading h3 {
+    color: var(--primary_clr);
+    padding-bottom: 8px;
+}
+
+#kota .kota_heading .heading_arrow {
+    display: flex;
+    column-gap: 30px;
+}
+
+#kota .kota_heading .heading_arrow i {
+    padding: 10px 12px;
+    background-color: rgba(214, 213, 199, 0.30);
+    border-radius: 5px;
+    color: rgba(255, 120, 41, 0.50);
+    border: 1px solid transparent;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+
+#kota .kota_heading .heading_arrow i:hover {
+    background: transparent;
+    border: 1px solid #D6D5C7;
+    color: var(--primary_clr);
+}
+
+.kota_wrapper {
+    display: flex;
+    gap: 49px;
+    flex-wrap: wrap;
+}
+
+.kota_wrapper .kota_item .kota_img {
+    width: 357px;
+    height: 445px;
+    background-color: #000;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.kota_wrapper .kota_item .kota_img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.kota_wrapper .kota_item .kota_content h3 {
+    color: var(--brand_clr);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    padding: 16px 0 8px;
+}
+
+.kota_wrapper .kota_item .kota_content p {
+    color: var(--brand_clr);
+    width: 356px;
+}

@@ -1,0 +1,113 @@
+#banner {
+    background-color: #EEEDDE;
+    padding: 130px 0 60px;
+}
+
+#banner .banner_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#banner .banner_wrapper .banner_content h1 {
+    color: var(--brand_clr);
+    width: 765px;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 150%;
+    padding-top: 60px;
+}
+
+#banner .banner_wrapper .banner_content p {
+    width: 544px;
+    padding: 24px 0 56px;
+}
+
+.banner_wrapper .banner_content .banner_search {
+    width: 675px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 56px;
+}
+
+.banner_content .banner_search form {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.banner_content .banner_search input {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border: none;
+    padding: 23px 0 23px 56px;
+    color: var(--brand_clr);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.banner_content .banner_search form i {
+    position: absolute;
+    font-size: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+}
+
+.banner_content .banner_search form button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 14px;
+    background-color: var(--brand_clr);
+    border: none;
+    border-radius: 10px;
+    padding: 13px 40px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.banner_content .banner_search input::placeholder {
+    color: rgba(32, 50, 57, 0.55);
+}
+
+/* .banner_content .banner_search input:focus {
+     outline: 5px solid var(--brand_clr);
+ } */
+
+/* .banner_content .banner_search input:focus-visible {
+      outline: -webkit-focus-ring-color auto 1px; 
+ } */
+
+#banner .banner_wrapper .counter_wrapper {
+    display: flex;
+    column-gap: 72px;
+    flex-wrap: wrap;
+}
+
+#banner .banner_wrapper .banner_content .counter_wrapper span {
+    color: var(--brand_clr);
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+#banner .banner_wrapper .banner_content .counter_wrapper .counter_item span span {
+    color: var(--primary_clr);
+}
+
+#banner .banner_wrapper .banner_content .counter_wrapper .counter_item p {
+    padding: 0;
+    width: 142px;
+}
+
+#banner .banner_wrapper .banner_img {
+    width: 405px;
+}

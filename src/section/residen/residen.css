@@ -1,0 +1,94 @@
+#residen {
+    background: #EEEDDE;
+    padding: 68px 0 163px;
+}
+
+#residen .residen_heading h3 {
+    color: var(--primary_clr);
+}
+
+#residen .residen_heading h2 {
+    padding: 8px 0 64px;
+}
+
+#residen .residen_wrapper {
+    display: flex;
+    column-gap: 65px;
+}
+
+#residen .residen_img {
+    display: flex;
+    width: 525px;
+    gap: 50px;
+    position: relative;
+}
+
+#residen .residen_img .residenImg_item {
+    width: 330px;
+    height: 455px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+#residen .residen_img .residenImg_item:nth-child(1)::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.20);
+    width: 100%;
+    height: 100%;
+}
+
+#residen .residen_img .residenImg_item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#residen .residen_img .residenImg_item:last-child {
+    width: 358px;
+    height: 490px;
+    position: absolute;
+    top: 13%;
+    left: 32%;
+    -webkit-box-shadow: 0px 34px 38px 0px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0px 34px 38px 0px rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 34px 38px 0px rgba(0, 0, 0, 0.14);
+
+}
+
+#residen .residen_wrapper .residen_content {
+    width: 580px;
+}
+
+#residen .residen_wrapper .residen_content h2 {
+    width: 507px;
+}
+
+#residen .residen_wrapper .residen_content p {
+    width: 570px;
+    padding: 24px 0 48px;
+}
+
+.residen_wrapper .residen_content .residen_btn {
+    display: flex;
+    column-gap: 48px;
+    align-items: center;
+}
+
+.residen_wrapper .residen_content .residen_btn .common_btn {
+    color: var(--brand_clr);
+    border: 1px solid var(--brand_clr);
+    transition: all linear .3s;
+}
+
+.residen_wrapper .residen_content .residen_btn .common_btn:hover {
+    background-color: var(--brand_clr);
+    color: #fff;
+}
+
+.residen_wrapper .residen_content .residen_btn i {
+    margin-right: 12px;
+}
